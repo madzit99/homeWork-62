@@ -1,10 +1,18 @@
+import Footer from "./Components /Footer/Footer";
+import Toolbar from "./Components /Toolbar/Toolbar";
 
-const  App = () => {
-
+const App = () => {
   return (
     <>
+      <header>
+        <Toolbar />
+      </header>
+      <main className="container"></main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
